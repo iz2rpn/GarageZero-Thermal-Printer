@@ -56,4 +56,7 @@ Un piccolo tool in Python/Tkinter per inviare **immagini**, **loghi** e **scontr
 
 ---
 
-© 2025 iz2rpn • MIT License
+Licenza
+Apache License Version 2.0, January 2004
+
+Copyright (c) [2025] [Pietro Marchetta]
