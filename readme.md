@@ -73,10 +73,3 @@ Copyright (c) \[2025] \[Pietro Marchetta]
 
 ---
 
-Se vuoi posso anche:
-
-* tradurre direttamente il file `README.md`
-* suggerirti una versione bilingue (🇮🇹/🇬🇧)
-* prepararti un badge GitHub figo tipo `made with ❤️ in Python 3.9`
-
-Fammi sapere!
