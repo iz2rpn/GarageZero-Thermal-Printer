@@ -1,62 +1,82 @@
+
+
 # GarageZero Thermal Printer
 
-**Stampa termica semplice e veloce dal tuo desktop!**
+**Quick and easy thermal printing from your desktop!**
 
-Un piccolo tool in Python/Tkinter per inviare **immagini**, **loghi** e **scontrini** alle stampanti ESC/POS (p.es. Epson TM‑P20). Supporta QR code, barcode e layout personalizzabile senza fronzoli.
-
----
-
-## Funzioni principali
-
-* **Stampa Immagine**
-
-  * Carica PNG/JPEG/BMP/GIF
-  * Conversione automatica in bianco/nero, centrata a 384px
-* **Scontrino di Test**
-
-  * Header e footer modificabili (multilinea)
-  * Logo personalizzato
-  * Prodotti: nome, quantità, prezzo con calcolo automatico
-  * QR code e barcode (contenuto a scelta)
-* **Configura**
-
-  * Porta seriale (es. COM8 o /dev/ttyUSB0)
-  * Baudrate (default 9600)
-* **Anteprime** live per immagine e logo
-* Gestione automatica della porta (apertura/chiusura)
+A lightweight Python/Tkinter tool to send **images**, **logos**, and **receipts** to ESC/POS thermal printers (e.g. Epson TM‑P20). Supports QR codes, barcodes, and a clean, customizable layout.
 
 ---
 
-## Requisiti
+## Key Features
+
+* **Image Printing**
+
+  * Load PNG/JPEG/BMP/GIF files
+  * Automatic black & white conversion, centered to 384px width
+
+* **Test Receipt**
+
+  * Customizable header and footer (multi-line)
+  * Custom logo
+  * Products with name, quantity, and price, including automatic line/total calculation
+  * QR code and barcode (custom content)
+
+* **Configuration**
+
+  * Serial port selection (e.g. COM8 or /dev/ttyUSB0)
+  * Baudrate (default: 9600)
+
+* **Live previews** for image and logo
+
+* Automatic serial port management (open/close)
+
+---
+
+## Requirements
 
 * Python 3.9+
-* Librerie:
+
+* Libraries:
 
   ```bash
   pip install python-escpos pillow qrcode python-barcode pyserial
   ```
-* Stampante termica ESC/POS (consigliata Epson TM‑P20)
+
+* ESC/POS thermal printer (Epson TM‑P20 recommended)
 
 ---
 
-## Avvio
+## Getting Started
 
-1. Clona o scarica il progetto.
-2. Installa le dipendenze.
-3. ```bash
+1. Clone or download the project.
+2. Install dependencies.
+3. Run:
+
+   ```bash
    python app.py
    ```
-4. Configura porta e baudrate, poi scegli tra **Stampa Immagine** e **Scontrino di Test**.
+4. Configure the serial port and baudrate, then choose **Image Printing** or **Test Receipt**.
 
 ---
 
-## Problemi noti
+## Known Issues
 
-* Se la stampa non parte, prova a **riavviare l’interfaccia seriale** (scollega/ricollega la stampante o chiudi e riapri l’app).
+* If printing doesn't start, try **restarting the serial interface** (unplug/replug the printer or restart the app).
 
 ---
 
-Licenza
+## License
+
 Apache License Version 2.0, January 2004
+Copyright (c) \[2025] \[Pietro Marchetta]
 
-Copyright (c) [2025] [Pietro Marchetta]
+---
+
+Se vuoi posso anche:
+
+* tradurre direttamente il file `README.md`
+* suggerirti una versione bilingue (🇮🇹/🇬🇧)
+* prepararti un badge GitHub figo tipo `made with ❤️ in Python 3.9`
+
+Fammi sapere!
